@@ -1,0 +1,4 @@
+name: 'Config Form'
+type: module
+description: 'custom config form'
+core_version_requirement: ^8 || ^9

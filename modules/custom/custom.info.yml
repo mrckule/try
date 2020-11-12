@@ -1,0 +1,5 @@
+name: 'Custom module'
+type: module
+description: 'Custom module that will make controller return twig as result when URL of controller is visited'
+core_version_requirement: ^8 || ^9
+
