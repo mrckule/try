@@ -22,14 +22,14 @@ class CustomController extends ControllerBase
     $nids = Drupal::entityQuery('node')->condition('type', 'movie_content_type')->execute();
     $nodes = Node::loadMultiple($nids);
     $vid = 'movie_type';
-    $terms = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree($vid);
+    $terms =\Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree($vid);
+
     foreach ($terms as $term) {
       $term_data[] = array(
         'id' => $term->tid,
         'name' => $term->name
       );
     }
-
 
     return array(
       '#theme' => 'article_list',
