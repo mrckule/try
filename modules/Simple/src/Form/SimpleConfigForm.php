@@ -90,13 +90,13 @@ class SimpleConfigForm extends parentAlias
 
     $config = $this->config('simple.settings');
 
-    $config->set('simple.number', $form_state->getValue('number'));
+    $config->set('simple.number', $form_state->getValue('number'))->save();
 
-    $config->set('simple.node_types', $form_state->getValue('node_types'));
+    $config->set('simple.node_types', $form_state->getValue('node_types'))->save();
 
-    $config->save();
 
-    return parent::submitForm($form, $form_state);
+
+    parent::submitForm($form, $form_state);
 
   }
 

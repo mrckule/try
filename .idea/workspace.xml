@@ -28,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JoomlaConfiguration">
     <joomlaConfigPath />
     <joomlaPath />
@@ -115,6 +118,7 @@
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -136,7 +140,10 @@
       <command value="open" />
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.CustomController.php">
+  <component name="RunManager" selected="PHP Script.BookController.php">
+    <configuration name="BookController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/modules/bookModule/src/Controller/BookController.php">
+      <method v="2" />
+    </configuration>
     <configuration name="CustomController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/modules/custom/src/Controller/CustomController.php">
       <method v="2" />
     </configuration>
@@ -149,23 +156,20 @@
     <configuration name="SimpleForm.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/modules/drupalup_simple_form/src/Form/SimpleForm.php">
       <method v="2" />
     </configuration>
-    <configuration name="mlpControler.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/modules/custom/drupalup_simple_form/src/controller/mlpControler.php">
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="PHP Script.FormBase.php" />
       <item itemvalue="PHP Script.FormInterface.php" />
-      <item itemvalue="PHP Script.mlpControler.php" />
       <item itemvalue="PHP Script.SimpleForm.php" />
       <item itemvalue="PHP Script.CustomController.php" />
+      <item itemvalue="PHP Script.BookController.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.BookController.php" />
         <item itemvalue="PHP Script.CustomController.php" />
         <item itemvalue="PHP Script.SimpleForm.php" />
         <item itemvalue="PHP Script.FormInterface.php" />
         <item itemvalue="PHP Script.FormBase.php" />
-        <item itemvalue="PHP Script.mlpControler.php" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +193,12 @@
       <workItem from="1604936262444" duration="1330000" />
       <workItem from="1604995767753" duration="6968000" />
       <workItem from="1605004155690" duration="9471000" />
-      <workItem from="1605168455481" duration="5943000" />
+      <workItem from="1605168455481" duration="9161000" />
+      <workItem from="1605255147891" duration="3832000" />
+      <workItem from="1605260355946" duration="14065000" />
+      <workItem from="1605514479503" duration="2876000" />
+      <workItem from="1605519084457" duration="19361000" />
+      <workItem from="1605601753128" duration="5860000" />
     </task>
     <servers />
   </component>
@@ -201,10 +210,18 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1380" y="174" key="#CLI_Interpreters/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604926669263" />
+    <state x="-1184" y="355" key="#Composer" timestamp="1605538540865">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1184" y="355" key="#Composer/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605538540865" />
     <state x="-1115" y="403" key="#Drupal" timestamp="1604563673153">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1115" y="403" key="#Drupal/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604563673153" />
+    <state x="-1334" y="198" key="#Inspections" timestamp="1605602612373">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1334" y="198" key="#Inspections/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605602612373" />
     <state x="-1209" y="343" key="#Notifications" timestamp="1604415944106">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -217,14 +234,18 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1380" y="174" key="#Servers/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604926159135" />
+    <state x="-1221" y="408" key="#Stylelint" timestamp="1605274452288">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1221" y="408" key="#Stylelint/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605274452288" />
     <state x="-1506" y="175" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605175287941">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="175" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605175287941" />
-    <state x="-1232" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605000680231">
+    <state x="-1232" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605534772257">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1232" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605000680231" />
+    <state x="-1232" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605534772257" />
     <state x="-1155" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1604677139745">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -250,38 +271,38 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1136" y="421" key="Github.CreateGistDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604933577564" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1605180938531">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1605607496726">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605180938531" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1605180938531">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605607496726" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1605607496726">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605180938531" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1605180938531">
+    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605607496726" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1605607496726">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605180938531" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1605180938531">
+    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605607496726" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1605607496726">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605180938531" />
-    <state width="1877" height="305" key="GridCell.Tab.1.bottom" timestamp="1605180938531">
+    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605607496726" />
+    <state width="1877" height="305" key="GridCell.Tab.1.bottom" timestamp="1605607496726">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605180938531" />
-    <state width="1877" height="305" key="GridCell.Tab.1.center" timestamp="1605180938531">
+    <state width="1877" height="305" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605607496726" />
+    <state width="1877" height="305" key="GridCell.Tab.1.center" timestamp="1605607496726">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605180938531" />
-    <state width="1877" height="305" key="GridCell.Tab.1.left" timestamp="1605180938531">
+    <state width="1877" height="305" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605607496726" />
+    <state width="1877" height="305" key="GridCell.Tab.1.left" timestamp="1605607496726">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605180938531" />
-    <state width="1877" height="305" key="GridCell.Tab.1.right" timestamp="1605180938531">
+    <state width="1877" height="305" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605607496726" />
+    <state width="1877" height="305" key="GridCell.Tab.1.right" timestamp="1605607496726">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605180938531" />
+    <state width="1877" height="305" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605607496726" />
     <state width="1877" height="248" key="GridCell.Tab.2.bottom" timestamp="1604418667685">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -303,18 +324,26 @@
     </state>
     <state x="-1453" y="181" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604930950607" />
     <state x="467" y="181" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603978341095" />
+    <state x="-1143" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605269478451">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1143" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605269478451" />
+    <state x="-1264" y="328" key="jetbrains.nodejs.interpreters-dialog" timestamp="1605271970722">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1264" y="328" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605271970722" />
     <state x="-1304" y="240" width="672" height="677" key="run.anything.popup" timestamp="1604926269039">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1304" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604926269039" />
-    <state x="-1297" y="225" width="967" height="678" key="search.everywhere.popup" timestamp="1605016677404">
+    <state x="-1297" y="225" width="967" height="678" key="search.everywhere.popup" timestamp="1605604954478">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="967" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605016677404" />
-    <state x="-1238" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1604931413894">
+    <state x="-1297" y="225" width="967" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605604954478" />
+    <state x="-1238" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605519958132">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1238" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604931413894" />
+    <state x="-1238" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605519958132" />
   </component>
   <component name="WordPressConfiguration">
     <wordpressPath />
