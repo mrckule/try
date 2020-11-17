@@ -1,0 +1,6 @@
+book.Module.booklist:
+  path: '/books'
+  defaults:
+    _controller: '\Drupal\bookModule\Controller\BookController::displayBooks'
+    requirements:
+      _permission: 'access content'

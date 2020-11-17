@@ -4,7 +4,6 @@ namespace Drupal\custom\Controller;
 use Drupal;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\node\Entity\Node;
-use Drupal\node\Entity\NodeType;
 
 /**
 * An example controller.
@@ -24,6 +23,7 @@ class CustomController extends ControllerBase
     $nodes = Node::loadMultiple($nids);
     $vid = 'movie_type';
     $terms =\Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree($vid);
+
     foreach ($terms as $term) {
       $term_data[] = array(
         'id' => $term->tid,

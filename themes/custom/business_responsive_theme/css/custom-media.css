@@ -34,7 +34,7 @@
   }
 
   .carousel-caption h3{
-    color: #fff;
+    color: #d69ee2;
   }
 
   .region-primary-menu{
@@ -46,14 +46,14 @@
 
   .region-primary-menu,
   .menu-base-theme li a{
-    background: #272727;
-    color: #ddd
+    background: #e2b4b4;
+    color: #ffffff
   }
 
   .menu-base-theme >li a:hover,
   .menu-base-theme li.active a,
   .menu-base-theme li a.is-active{
-    background: #ff4a00;
+    background: #d267dd;
     color: #fff;
   }
 
@@ -65,10 +65,10 @@
     border: 0;
   }
 
-  .menu-base-theme a, 
-  .menu-base-theme a:hover, 
-  .menu-base-theme a:focus, 
-  .menu-base-theme a:active, 
+  .menu-base-theme a,
+  .menu-base-theme a:hover,
+  .menu-base-theme a:focus,
+  .menu-base-theme a:active,
   .menu-base-theme a.highlighted{
     padding: 13px 24px;
   }
@@ -102,8 +102,8 @@
   .menu-base-theme ul {
     border: 0;
     padding: 0;
-    background-color: #fff;
-    background: rgba(255, 255, 255, 0.74);
+    background-color: #d380ea;
+    background: rgb(230, 186, 234);
   }
 
   .menu-base-theme ul.has-submenu li {
