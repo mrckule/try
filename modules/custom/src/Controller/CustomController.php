@@ -40,5 +40,3 @@ class CustomController extends ControllerBase
   }
 }
 
-
-
