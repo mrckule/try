@@ -29,9 +29,9 @@ class __TwigTemplate_4841c1a855989baabf90aaa9fc800769eea75e68b340e1dcba73c103b06
         $this->blocks = [
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
-        $tags = array("for" => 5);
-        $filters = array("escape" => 1, "raw" => 9);
-        $functions = array("file_url" => 11);
+        $tags = array("for" => 7);
+        $filters = array("escape" => 1, "raw" => 11);
+        $functions = array("file_url" => 13);
 
         try {
             $this->sandbox->checkSecurity(
@@ -70,30 +70,35 @@ class __TwigTemplate_4841c1a855989baabf90aaa9fc800769eea75e68b340e1dcba73c103b06
         // line 3
         echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["pager"] ?? null), 3, $this->source), "html", null, true);
         echo "
+";
+        // line 4
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["term"] ?? null), 4, $this->source), "html", null, true);
+        echo "
+
 <ul>
 ";
-        // line 5
+        // line 7
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["nodes"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["article"]) {
-            // line 6
+            // line 8
             echo "
 
   <li>";
-            // line 8
-            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["article"], "title", [], "any", false, false, true, 8), "value", [], "any", false, false, true, 8), 8, $this->source), "html", null, true);
-            echo "</li>
-  <li>";
-            // line 9
-            echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["article"], "body", [], "any", false, false, true, 9), "value", [], "any", false, false, true, 9), 9, $this->source));
-            echo "</li>
-  <li>";
             // line 10
-            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["article"], "field_movie_type", [], "any", false, false, true, 10), "entity", [], "any", false, false, true, 10), "name", [], "any", false, false, true, 10), "value", [], "any", false, false, true, 10), 10, $this->source), "html", null, true);
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["article"], "title", [], "any", false, false, true, 10), "value", [], "any", false, false, true, 10), 10, $this->source), "html", null, true);
+            echo "</li>
+  <li>";
+            // line 11
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["article"], "body", [], "any", false, false, true, 11), "value", [], "any", false, false, true, 11), 11, $this->source));
+            echo "</li>
+  <li>";
+            // line 12
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["article"], "field_movie_type", [], "any", false, false, true, 12), "entity", [], "any", false, false, true, 12), "name", [], "any", false, false, true, 12), "value", [], "any", false, false, true, 12), 12, $this->source), "html", null, true);
             echo "</li>
   <li><img src=\"";
-            // line 11
-            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, call_user_func_array($this->env->getFunction('file_url')->getCallable(), [$this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["article"], "field_img", [], "any", false, false, true, 11), "entity", [], "any", false, false, true, 11), "fileUri", [], "any", false, false, true, 11), 11, $this->source)]), "html", null, true);
+            // line 13
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, call_user_func_array($this->env->getFunction('file_url')->getCallable(), [$this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["article"], "field_img", [], "any", false, false, true, 13), "entity", [], "any", false, false, true, 13), "fileUri", [], "any", false, false, true, 13), 13, $this->source)]), "html", null, true);
             echo "\" alt=\"some text\"></li>
 
 
@@ -102,7 +107,7 @@ class __TwigTemplate_4841c1a855989baabf90aaa9fc800769eea75e68b340e1dcba73c103b06
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['article'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 15
+        // line 17
         echo "</ul>
 
 ";
@@ -120,7 +125,7 @@ class __TwigTemplate_4841c1a855989baabf90aaa9fc800769eea75e68b340e1dcba73c103b06
 
     public function getDebugInfo()
     {
-        return array (  106 => 15,  96 => 11,  92 => 10,  88 => 9,  84 => 8,  80 => 6,  76 => 5,  71 => 3,  67 => 2,  62 => 1,);
+        return array (  111 => 17,  101 => 13,  97 => 12,  93 => 11,  89 => 10,  85 => 8,  81 => 7,  75 => 4,  71 => 3,  67 => 2,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -128,6 +133,8 @@ class __TwigTemplate_4841c1a855989baabf90aaa9fc800769eea75e68b340e1dcba73c103b06
         return new Source("<h4>{{ title }} </h4>
 {{ nodes }}
 {{ pager }}
+{{ term }}
+
 <ul>
 {% for article in nodes %}
 
