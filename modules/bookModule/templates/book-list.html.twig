@@ -1,8 +1,0 @@
-{% for book in books %}
-<ol>
-  <li>ISBN {{ book.field_isbn.value }}</li>
-  <li>TITLE {{ book.field_title.value }}</li>
-  <li>PRICE {{ book.field_price.value }}</li>
-<a href="{{ url('<front>') }} node/{{ book.nid.value }}">{{ details }}</a>
-</ol>
-{% endfor %}

@@ -1,7 +1,7 @@
 custom.article_list:
   path: '/custom/articles'
   defaults:
-    _title: 'Any title'
+    _title: 'Movies page'
     _controller: '\Drupal\custom\Controller\CustomController::content'
   requirements:
     _permission: 'access content'

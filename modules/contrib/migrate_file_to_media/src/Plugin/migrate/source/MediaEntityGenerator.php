@@ -161,7 +161,7 @@ class MediaEntityGenerator extends SourcePluginBase implements ContainerFactoryP
 
     foreach ($this->sourceFields as $name => $source_field) {
 
-      $query = $this->entityQuery->get($this->configuration['entity_type']);
+      $query = $this->entityTypeManager->getStorage($this->configuration['entity_type'])->getQuery();
 
       if (!empty($bundleKey)) {
         $query->condition($bundleKey, $this->configuration['bundle']);

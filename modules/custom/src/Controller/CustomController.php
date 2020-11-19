@@ -18,24 +18,40 @@ class CustomController extends ControllerBase
 
   public function content()
   {
+    $number = Drupal::config('simple.settings')->get('simple.number');
 
-    $nids = Drupal::entityQuery('node')->condition('type', 'movie_content_type')->execute();
+    $nids = Drupal::entityQuery('node')->condition('type', 'movie_content_type')
+      ->condition('status', 1)
+      ->sort('created', 'DESC')
+      ->pager($number)
+      ->execute();
     $nodes = Node::loadMultiple($nids);
     $vid = 'movie_type';
-    $terms = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree($vid);
+    $terms = Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree($vid);
     foreach ($terms as $term) {
       $term_data[] = array(
         'id' => $term->tid,
         'name' => $term->name
       );
+
+
+      }
+
+
+      return array(
+        'result' => [
+          '#theme' => 'article_list',
+          '#nodes' => $nodes,
+          '#terms' => $terms,
+          '#title' => 'Movies listing page',
+        ],
+        'pager' => [
+          '#type' => 'pager'
+        ]
+      );
+
+
     }
 
-
-    return array(
-      '#theme' => 'article_list',
-      '#nodes' => $nodes,
-      '#terms' => $terms,
-      '#title' => 'Movies listing page'
-    );
-  }
 }
+
