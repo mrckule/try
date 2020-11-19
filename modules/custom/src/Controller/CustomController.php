@@ -27,13 +27,19 @@ class CustomController extends ControllerBase
       ->execute();
     $nodes = Node::loadMultiple($nids);
     $vid = 'movie_type';
+<<<<<<< HEAD
     $terms = Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree($vid);
+=======
+    $terms =\Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree($vid);
+
+>>>>>>> e5fb086f24b20c23a0dfe474e60d343f1f33a0cb
     foreach ($terms as $term) {
       $term_data[] = array(
         'id' => $term->tid,
         'name' => $term->name
       );
 
+<<<<<<< HEAD
 
       }
 
@@ -53,5 +59,14 @@ class CustomController extends ControllerBase
 
     }
 
+=======
+    return array(
+      '#theme' => 'article_list',
+      '#nodes' => $nodes,
+      '#terms' => $terms,
+      '#title' => 'Movies listing page'
+    );
+  }
+>>>>>>> e5fb086f24b20c23a0dfe474e60d343f1f33a0cb
 }
 
