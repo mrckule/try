@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '98a95093a788fcecdd0c3da075bd85c10352bd98',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -597,12 +597,12 @@
     ),
     'drupal/legacy-project' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '98a95093a788fcecdd0c3da075bd85c10352bd98',
     ),
     'drupal/link' => 
     array (
@@ -1014,6 +1014,15 @@
       array (
       ),
       'reference' => 'fcd87520e4943d968557803919523772475e8ea3',
+    ),
+    'league/csv' => 
+    array (
+      'pretty_version' => '9.6.1',
+      'version' => '9.6.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '634322df4aed210fdfbb7c94e434dc860da733d9',
     ),
     'masterminds/html5' => 
     array (

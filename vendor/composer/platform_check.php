@@ -17,6 +17,7 @@ extension_loaded('gd') || $missingExtensions[] = 'gd';
 extension_loaded('hash') || $missingExtensions[] = 'hash';
 extension_loaded('json') || $missingExtensions[] = 'json';
 extension_loaded('libxml') || $missingExtensions[] = 'libxml';
+extension_loaded('mbstring') || $missingExtensions[] = 'mbstring';
 extension_loaded('pcre') || $missingExtensions[] = 'pcre';
 extension_loaded('pdo') || $missingExtensions[] = 'pdo';
 extension_loaded('session') || $missingExtensions[] = 'session';
